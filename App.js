@@ -7,7 +7,7 @@ const userDataWithImages = [
   {
     firstName: 'Arnel',
     lastName: 'Casanoba',
-    nickname: 'Aniw',
+    nickname: 'ANIW',
     course: 'BSCRIM',
     year: 'Third Year',
     image: require('./assets/aniw.jpg'), 
@@ -15,7 +15,7 @@ const userDataWithImages = [
   {
     firstName: 'Cegie',
     lastName: 'Simacon',
-    nickname: 'siji',
+    nickname: 'SIJI',
     course: 'BSCRIM',
     year: 'Third Year',
     image: require('./assets/ciji.jpg'), 
@@ -23,7 +23,7 @@ const userDataWithImages = [
   {
     firstName: 'Christian Joven',
     lastName: 'Racho',
-    nickname: 'jobin',
+    nickname: 'JOBEN',
     course: 'BSELECT',
     year: 'Third Year',
     image: require('./assets/joven.jpg'),
@@ -31,7 +31,7 @@ const userDataWithImages = [
   {
     firstName: 'Kim Micheal',
     lastName: 'Ranario',
-    nickname: 'kem',
+    nickname: 'KEM',
     course: 'BSCRIM',
     year: 'Third Year',
     image: require('./assets/kim.jpg'), 
@@ -39,7 +39,7 @@ const userDataWithImages = [
   {
     firstName: 'Christopher',
     lastName: 'Magwan',
-    nickname: 'opi',
+    nickname: 'OPI',
     course: 'BSCRIM',
     year: 'Third Year',
     image: require('./assets/opi.jpg'),
@@ -47,7 +47,7 @@ const userDataWithImages = [
   {
     firstName: 'John Carlo',
     lastName: 'Razon',
-    nickname: 'carlo',
+    nickname: 'CARLO',
     course: 'BSIT',
     year: 'Third Year',
     image: require('./assets/me.jpg'), 
@@ -67,8 +67,9 @@ const UserList = () => {
     </TouchableOpacity>
   );
 
-  <View style={styles.container}>
-       <Text style={styles.pt}>Team Hamal</Text>
+  return (
+    <View style={styles.container}>
+       <Text style={styles.pt}>MGA HAMAL</Text>
       <FlatList
         data={userDataWithImages}
         keyExtractor={(item) => item.nickname}
@@ -100,7 +101,7 @@ const UserList = () => {
         </View>
       </Modal>
     </View>
-  
+  );
 };
 
-export default UserList;   
+export default UserList;

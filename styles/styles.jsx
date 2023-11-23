@@ -11,10 +11,11 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   nickname: {
-    fontSize: 20,
+    fontSize: 30,
     margin: 10,
-    color: 'blue',
+    color: 'black',
     textAlign: 'center',
+    fontWeight: 'bold',
   },
   modalContainer: {
     flex: 1,
@@ -26,11 +27,13 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 10,
     textAlign: 'center',
-    color: 'blue',
+    color: 'violet',
   },
   pt:{
     fontSize:40,
     fontWeight:'bolder',
+    color: 'violet',
+  
 
   }
 
